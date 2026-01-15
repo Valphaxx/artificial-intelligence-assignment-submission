@@ -40,7 +40,7 @@ document.getElementById("run").onclick = () => {
       problemDesc,
       algorithmDesc,
       liveExplain,
-      getDelay: () => Number(speedSlider.value)
+      getDelay: () => 2500
     }
   );
 };

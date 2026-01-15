@@ -21,7 +21,7 @@ export default function createRunner({
 
   let stopped = false;
   let paused = false;
-  const getDelay = ui?.getDelay || (() => 40);
+  const getDelay = ui?.getDelay || (() => 80000);
 
   async function recurse(problem, state) {
     if (stopped) return;
