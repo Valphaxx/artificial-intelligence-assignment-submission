@@ -1,4 +1,0 @@
-pygame>=2.0.0
-matplotlib>=3.5.0
-networkx>=2.8.0
-memory_profiler>=0.60.0
